@@ -13,8 +13,8 @@ import pandas
 import re
 
 # Specify the locations of the paths detailed above
-file_path = 'C:\\Users\\HP\\Desktop\\STAR Scholars\\Research Things\\Browser Automation Codes\\Raw Spectra\\'
-new_file_path = 'C:\\Users\\HP\\Desktop\\STAR Scholars\\Research Things\\Browser Automation Codes\\Processed Spectra\\'
+file_path = 'C:\\Users\\USER\\Desktop\\Raw Spectra\\'
+new_file_path = 'C:\\Users\\USER\\Desktop\\Processed Spectra\\'
 
 # Function which should be called in the main program
 def get_file(file_name, t_obs, obs_ang, distance):
