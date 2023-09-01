@@ -105,11 +105,11 @@ for m_ejecta in m_ejecta_list:
                                 else:
                                     file = 'nph1.0e+06_mej' + str(m_ejecta) + '_phi' + str(phi) + '_T5.0e+03.txt'
 
-                                # From get_spectrum_file
+                                # From spectrum_data_file
                                 file_name = sd.get_file(file, t_obs, obs_ang, distance)
 
                                 # Checking if there is more than one observation angle
-                                # get_spectrum_file is coded to return an obs_ang of 0 (file_name[6]) for any model that has only 1 observation angle. 
+                                # spectrum_data_file is coded to return an obs_ang of 0 (file_name[6]) for any model that has only 1 observation angle. 
                                 # If this function is trying to input a different observation angle, this if statement catches it, and doesn't run code for any observation angle cos > 0
                                 if file_name[6] == obs_ang:
 
